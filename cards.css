@@ -1,0 +1,75 @@
+* {
+
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #6A12BE, #000, #2B81A4);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.main {
+    height: auto;
+    width: 90%;
+    background: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .card {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px ;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.main .card .img img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main .card .txt h4 {
+    font-size: 0.8em;
+    background: aqua;
+    margin: 1em 0em;
+    border-radius: 100px;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+.main .card .txt h5 {
+    padding-right: 70px;
+    font-size: 0.9em;
+    margin: 0em 0em;
+}
+
+.main .card .txt p {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: grey;
+}
+
+
+.main .card .bottom-bar img{height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover}
+
+.main .card .bottom-bar{display: flex;align-items: center;gap: 20px;}
+
+.main .card .date h5{margin: 0;}
+.main .card .date p{margin: 0;}
+.main .card .txt {padding: 10px;}
+.main .card .bottom-bar{padding: 10px;}
+.main .row {width: 100%;display: flex;justify-content: center;align-items: center;padding: 30px;flex-wrap: wrap;}
